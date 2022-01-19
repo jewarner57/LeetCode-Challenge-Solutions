@@ -25,7 +25,7 @@ class Solution(object):
         curr = head
         # traverse and store each node object in an array or dictionary
         # check that each node isnt already in the dictionary.
-        while not curr in nodeList and curr is not None:
+        while curr not in nodeList and curr is not None:
             nodeList.append(curr)
             curr = curr.next
 
