@@ -23,6 +23,7 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 
 
 class Solution:
+    # Sliding Window Solution
     def findAnagrams(self, s: str, p: str) -> List[int]:
         # make a dict of all chars and their counts for p
         phraseDict = {}
